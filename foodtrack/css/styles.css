@@ -1,0 +1,578 @@
+#home{
+
+    font-family: 'Raleway', sans-serif;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+#plataforma{
+
+    font-family: 'Raleway', sans-serif;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    background-color: #0B3142;
+}
+
+#login{
+
+    font-family: 'Raleway', sans-serif;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    background-color: #0B3142;
+    color:white;
+}
+
+#perfil{
+
+    font-family: 'Raleway', sans-serif;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    color: black;
+}
+
+
+header{
+
+    width:100%;
+    overflow:hidden;
+    background-color:black;
+    margin-bottom: 20px;
+}
+
+.contenido{
+    background-color: white;
+}
+
+.wrapper{
+
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header .logo{
+    color:#f2f2f2;
+    font-size: 20px;
+    line-height: 80px;
+    float: left;
+}
+
+header nav{
+    float: right;
+    line-height: 80px;
+}
+
+header nav a{
+    display: inline-block;
+    color:#ffffff;
+    text-decoration: none;
+    padding:10px 20px;
+    line-height:normal;
+    font-size: 18px;
+    font-weight: bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition: all 500ms ease;
+}
+
+header nav input{
+    display: inline-block;
+    color:#ffffff;
+    text-decoration: none;
+    padding:10px 20px;
+    line-height:normal;
+    font-size: 18px;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition: all 500ms ease;
+    background-color: black;
+    border:none;
+}
+.escolar{
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    color:white;
+    text-decoration: none;
+}
+.escolar:hover{
+    color:#298fdb;
+}
+
+.login:hover{
+    background-color: #BFD7EA;
+    color:#000000;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.loginRed:hover{
+    background-color: red;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.registro:hover{
+    background-color: #BFD7EA;
+    color:#000000;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.contacto:hover{
+    background-color: #BFD7EA;
+    color:#000000;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.misLibros:hover{
+    background-color: #298fdb;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.miClase:hover{
+    background-color:#ff8a3b;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.calificaciones:hover{
+    background-color: #47b43d;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.cerrarSesion:hover{
+    background-color: #fb3e3e;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#main-content {
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+#main-content-perfil {
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+ 
+#main-content header,
+#main-content .content,
+#main-content-perfil .content-perfil {
+     padding: 40px;
+}
+
+#main-content-perfil .content-perfil {
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
+#main-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+#main-footer p {
+    margin: 0;
+}
+    
+#main-footer a {
+    color: white;
+}
+
+.navMenu{
+    position:fixed; top:0;
+}
+
+.divContenido{
+    margin-top: 70px;
+}
+
+#loginForm{
+    font-size: 15px;
+    text-align: center;
+
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+#registerExiste{
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+#emailLabel, #passwordLabel, #nameLabel{
+
+    color: grey;
+}
+
+input[type=email], input[type=password], input[type=text]{
+    border: 1px solid #d9dadb;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom:20px;
+    margin-top: 5px;
+    width: 300px;
+    font-size: 20px;
+}
+
+
+select, textarea {
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+} 
+
+
+.botonLog{
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    background-color:#000000;
+    padding: 15px 30px;
+    margin-top: 5px;
+    margin-left: 5px; 
+    font-size: 16px;
+    color: #ffffff;
+    width: 335px;
+}
+
+.botonLog:hover{
+    cursor: pointer;
+    color: #0B3142;
+    background-color: #A9CEF4;
+}
+
+.botonSearch{
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    background-color:#000000;
+    padding: 10px 30px;
+    margin-top: 5px;
+    margin-left: 5px; 
+    font-size: 16px;
+    color: #ffffff;
+    width: 200px;
+}
+
+.botonSearch:hover{
+    cursor: pointer;
+    color: #0B3142;
+    background-color: #A9CEF4;
+}
+
+
+section#contenedor_general{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background-image: url(../img/bg5.jpg);
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+p#titulo{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+p#titulo-perfil{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+#linkRegister a{
+    text-decoration: none;
+    color:#A9CEF4;
+}
+
+#loginButton{
+    margin-top: 30px;
+}
+
+#submitContact{
+ -webkit-transition-duration: 0.3s;
+ transition-duration: 0.3s;
+ background-color: black;
+}
+
+#submitContact:hover{
+background-color: #298fdb;
+}
+
+#contactDesc{
+    text-align: center;
+    font-size: 18px;
+    color:grey;
+}
+
+#contactDescTitle{
+    text-align: center;
+    font-size: 18px;
+    color:#298fdb;
+}
+
+#editorialtDesc{
+    text-align: center;
+    font-size: 18px;
+    color:grey;
+}
+
+
+#linkLogIn a{
+    text-decoration: none;
+    color:#A9CEF4;
+}
+
+#textRegister{
+    margin-top: 30px;
+}
+
+#idEditoriales{
+    text-align: center;
+}
+
+#logo{
+    margin-top: 120px;
+    text-align: center;
+    padding-top: 50px;
+}
+#textFirst{
+    color: #ffffff;
+    font-size: 70px;
+}
+#textSecond{
+    color: #A9CEF4;
+    font-size: 70px;   
+}
+
+#about{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 20px 300px;
+}
+#aboutMax{
+    text-align: center;
+    margin-top: 40px;
+    background-color: #BFD7EA;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 30px;
+}
+
+#paso1{
+    color: #0B3142;
+}
+
+#paso2, #paso3{
+    margin-left: 100px;
+    color: #0B3142;
+}
+
+.buttonUser{
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    height: 100px;
+    width: 200px;
+    margin: 5px 5px 0 0;
+    padding: 8px;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 32px;
+    background-color: #BFD7EA;
+
+
+}
+.buttonUser:hover{
+    color:white;
+    background-color: #0B3142;
+    cursor: pointer;
+}
+
+.espacioLargo{
+    line-height: 90px;
+    font-size: 35px;
+    width: 290px;
+    height: 80px;
+}
+
+#but{
+    margin-top: 30px;
+    margin-left: 38%;
+}
+
+#butt{
+    margin-top: 30px;
+    margin-left: 25%;
+}
+
+#butto{
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+#buttton{
+    margin-top: 30px;
+    margin-left: 11%;
+}
+
+#profileTitlePerfil{
+    margin-top: 185px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+#profileContain{
+    margin-top: 130px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.nombre{
+    background-color: #0B3142;
+    color:white;
+    border-radius: 10px;
+}
+
+.prospectos{
+    background-color: #80a3e5;
+    color: black;
+    border-radius: 10px;
+}
+
+.candidatos{
+    background-color: #a2bae8;
+    color: black;
+    border-radius: 10px;
+}
+
+.op{
+    background-color: #b7c8e8;
+    color: black;
+    border-radius: 10px;
+}
+
+.fish{
+    background-color: #ced7e8;
+    color: black;
+    border-radius: 10px;
+}
+
+
+th{
+    padding:10px;
+
+}
+
+input[type=email], input[type=password], input[type=text]{
+    border: 1px solid #d9dadb;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom:20px;
+    margin-top: 5px;
+    width: 300px;
+    font-size: 20px;
+}
+
+
+select, textarea {
+    width: 25%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none; 
+
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}

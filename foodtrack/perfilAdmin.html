@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8"/>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/sessionScript.js"></script>
+	<script type="text/javascript" src="js/logoutScript.js"></script>
+	<script type="text/javascript" src="js/usersDatosScript.js"></script>
+</head>
+<body id="perfil">
+	<header class="navMenu">
+	<div class="wrapper">
+		<div class="logo">
+		<a class="escolar" href="adminHome.html">FoodTrack</a>	
+		</div>
+		<nav>
+			<a class="contacto" onClick="usuarioMod('restaurante')">Enviar orden</a>
+			<input id="borrarRestaurante" type="button" class="loginRed" value="Borrar Restaurante">
+			<input id="cerrarSesion" type="button" class="login" value="Cerrar sesion">
+		</nav>
+	</div>
+	</header>
+	
+	<div id="profileContain">
+		<div id= "title">Historial de ordenes de restaurante</div>
+       <table  id="profileDataUserHistoric" width="100%">
+            <tr> 
+            	<th class="nombre">Restaurante</th>
+                <th class="prospectos">Fecha</th>
+                <th class="prospectos">Tomate</th>
+                <th class="prospectos">Cebolla</th>
+                <th class="prospectos">Aguacate</th>
+                <th class="candidatos">Cilantro</th>
+                <th class="candidatos">Piña</th>
+                <th class="candidatos">Lechuga</th>
+                <th class="op">Papas</th>
+                <th class="op">chile</th>
+                <th class="op">Apio</th>
+                <th class="op">Zanahoria</th>
+                <th class="fish">Comentarios</th>
+            </tr>
+        </table>
+    </div>	
+
+     <script>
+		function usuarioMod(tipoContacto){
+
+			var nombreID = window.location.hash.substring(1);
+			
+				window.location.href = 'enviarOrden.html' + '#' + nombreID;
+   		}  
+	</script>	
+</body>
+</html>

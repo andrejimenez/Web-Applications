@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8"/>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/sessionScript.js"></script>
+	<script type="text/javascript" src="js/logoutScript.js"></script>
+	<script type="text/javascript" src="js/restaurantes.js"></script>
+</head>
+<body id="perfil">
+	<header class="navMenu">
+	<div class="wrapper">
+		<div class="logo">
+		<a class="escolar" href="adminHome.html">FoodTrack</a>	
+		</div>
+		<nav>
+			<a class="contacto" href="searchRestaurant.html">Buscar restaurantes</a>
+			<input id="cerrarSesion" type="button" class="login" value="Cerrar sesion">
+		</nav>
+	</div>
+	</header>
+	
+	<div id="profileContain">
+		<div id= "title">Tus restaurantes</div>
+	<div id="menuUsers">
+		<!--<div id="but" class="buttonMenu azul" onClick="window.location = 'modProspectos.html'">Prospecto</div>-->
+	</div>
+	<script>
+		function usuario(nombreID){
+       		window.location.href = 'perfilAdmin.html' + '#' + nombreID;
+   		}  
+	</script>
+    </div>
+	
+
+	
+</body>
+</html>
